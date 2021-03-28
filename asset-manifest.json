@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/willharrismedia/static/css/main.5190a62c.chunk.css",
+    "main.js": "/willharrismedia/static/js/main.63fbd5dd.chunk.js",
+    "main.js.map": "/willharrismedia/static/js/main.63fbd5dd.chunk.js.map",
+    "runtime-main.js": "/willharrismedia/static/js/runtime-main.176207f9.js",
+    "runtime-main.js.map": "/willharrismedia/static/js/runtime-main.176207f9.js.map",
+    "static/js/2.c7e47623.chunk.js": "/willharrismedia/static/js/2.c7e47623.chunk.js",
+    "static/js/2.c7e47623.chunk.js.map": "/willharrismedia/static/js/2.c7e47623.chunk.js.map",
+    "static/js/3.ba01c306.chunk.js": "/willharrismedia/static/js/3.ba01c306.chunk.js",
+    "static/js/3.ba01c306.chunk.js.map": "/willharrismedia/static/js/3.ba01c306.chunk.js.map",
+    "index.html": "/willharrismedia/index.html",
+    "static/css/main.5190a62c.chunk.css.map": "/willharrismedia/static/css/main.5190a62c.chunk.css.map",
+    "static/js/2.c7e47623.chunk.js.LICENSE.txt": "/willharrismedia/static/js/2.c7e47623.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.176207f9.js",
+    "static/js/2.c7e47623.chunk.js",
+    "static/css/main.5190a62c.chunk.css",
+    "static/js/main.63fbd5dd.chunk.js"
+  ]
+}
