@@ -2,15 +2,23 @@ import React from "react";
 import "./App.css";
 
 import Header from "./components/header/header.component";
+import HomePage from "./pages/homepage.component";
+import About from "./components/about/about.component";
+import Resume from "./components/resume/resume.component";
+import Work from "./components/work/work.component";
+import Contact from "./components/contact/contact.component";
+import Footer from "./components/footer/footer.component";
 
 function App() {
   return (
     <div className="App">
-      <header className="body">
-        <Header />
-        <h1>will harris media</h1>
-        <h3 className="App-link">coming soon</h3>
-      </header>
+      <Header />
+      <HomePage />
+      <About />
+      <Resume />
+      <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 }
