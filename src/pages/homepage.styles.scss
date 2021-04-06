@@ -11,10 +11,17 @@
   justify-content: center;
   font-family: "Anonymous Pro", monospace;
   font-size: calc(10px + 2vmin);
-  color: #292929;
-  border: #00c8ff solid 2px;
+  color: #ffffff;
+  background-image: url(../assets/patrick-ryan-3kUIaB2EPp8-unsplash_min.jpg);
+  background-size: cover;
 
-  h3 {
-    color: #00c8ff;
+  border: #00c8ff solid 2px;
+  .titles {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    h3 {
+      color: #ffffff;
+    }
   }
 }
