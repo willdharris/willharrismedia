@@ -15,7 +15,7 @@ const About = () => (
       fermentum posuere urna nec tincidunt praesent semper. Duis tristique
       sollicitudin nibh sit. Sed tempus urna et pharetra pharetra massa. Porta
       nibh venenatis cras sed. Nulla aliquet enim tortor at auctor urna nunc id.
-      Bibendum enim facilisis gravida neque convallis a.
+      Bibendum enim facilisis gravida neque convallis b.
     </p>
   </div>
 );
