@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./resume.styles.scss";
+import "./skills.styles.scss";
 
-const Resume = () => (
-  <div className="resume">
-    <h1>resume</h1>
+const Skills = () => (
+  <div className="skills">
+    <h1>skills</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut
@@ -20,4 +20,4 @@ const Resume = () => (
   </div>
 );
 
-export default Resume;
+export default Skills;
