@@ -1,12 +1,9 @@
 import React from "react";
 
-import "./header.styles.scss";
-function Header() {
+import "./footer.styles.scss";
+function Footer() {
   return (
-    <div className="header">
-      {/* <div className="logo-container">
-        <div className="logo">logo</div>
-      </div> */}
+    <div className="footer">
       <div className="options">
         <div className="option">home</div>
         <div className="option">about</div>
@@ -18,4 +15,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Footer;
