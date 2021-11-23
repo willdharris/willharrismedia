@@ -9,7 +9,7 @@ function App() {
       <header className="body">
         {/* <Header /> */}
         <h1>will harris media</h1>
-        <h3 className="App-link">coming soon</h3>
+        <h3 className="App-link">portfolio</h3>
       </header>
     </div>
   );
