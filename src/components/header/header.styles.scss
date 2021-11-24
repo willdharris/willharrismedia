@@ -1,32 +1,16 @@
 .header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: auto;
+  // position: absolute;
   font-family: "Anonymous Pro", monospace;
-  border: dotted 2px black;
+  // border: dotted 2px black;
+  // max-width: 1140px;
+  // background-color: purple;
+
+  // flex-direction: row;
+  // align-items: center;
+  // justify-content: space-evenly;
+  margin-bottom: auto;
+
+  // background-color: #4f4f4f;
+  // border: dotted 2px black;
   width: 100%;
-
-  //   .logo-container {
-  //     height: 100%;
-  //     width: 70px;
-  //     padding: 25px;
-  //   }
-
-  .options {
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    // overflow: auto;
-
-    .option {
-      padding: 10px 7px;
-      cursor: pointer;
-    }
-  }
 }

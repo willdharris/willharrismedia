@@ -1,19 +1,24 @@
 import React from "react";
+import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 import "./header.styles.scss";
 function Header() {
   return (
     <div className="header">
-      {/* <div className="logo-container">
-        <div className="logo">logo</div>
-      </div> */}
-      <div className="options">
-        <div className="option">home</div>
-        <div className="option">about</div>
-        <div className="option">work</div>
-        <div className="option">skills</div>
-        <div className="option">contact</div>
-      </div>
+      <Navbar collapseOnSelect expand="lg" bg="none" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">wh</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ms-auto">
+              <Nav.Link href="#about">about</Nav.Link>
+              <Nav.Link href="#work">work</Nav.Link>
+              <Nav.Link href="#skills">skills</Nav.Link>
+              <Nav.Link href="#contact">contact</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </div>
   );
 }

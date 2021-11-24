@@ -3,23 +3,25 @@
   //   border: solid pink 2px;
   //   font-family: "Anonymous Pro", monospace;
 
-  background-color: #ffffff;
+  // background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "Anonymous Pro", monospace;
-  font-size: calc(10px + 2vmin);
+  // font-size: calc(10px + 2vmin);
   color: #ffffff;
-  background-image: url(../assets/patrick-ryan-3kUIaB2EPp8-unsplash_min.jpg);
+  background-image: url(https://unice.pixelstrapthemes.vercel.app/assets/images/app_landing1/header-1-bg.png);
   background-size: cover;
+  // background-position: center center;
 
-  border: #00c8ff solid 2px;
+  // border: #00c8ff solid 2px;
   .titles {
     display: flex;
     flex-direction: column;
     margin-bottom: auto;
+
     h3 {
       color: #ffffff;
     }
