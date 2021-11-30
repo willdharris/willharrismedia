@@ -28,33 +28,28 @@ const HomePage = () => (
         <Row>
           <Col>
             <Row>Hello,</Row>
-            <Row>I'm Will Harris</Row>
+            <Row>I'm Will Harris.</Row>
+            <Row>Front End Developer and Problem Solver. </Row>
           </Col>
 
           <Col>
             <Card style={{ width: "18rem" }} text="dark">
               <Card.Img
+                style={{ padding: "1rem" }}
+                rounded
                 variant="top"
-                src="../assets/profilepicsquare-300x300.jpeg"
+                src="https://supercelebjacket.com/wp-content/uploads/2019/10/Starsky-And-Hutch-Ben-Stiller-Jacket-2.jpg/supercelebjacket.com/wp-content/uploads/2019/10/Starsky-And-Hutch-Ben-Stiller-Jacket-2.jpg"
               />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
+                <Card.Title>
+                  <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
+
+                  <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
+                </Card.Title>
+                <Card.Text></Card.Text>
                 {/* <Button variant="primary">Go somewhere</Button> */}
-                <FontAwesomeIcon icon={["fab", "linkedin"]} size="5x" />
-                |
-                <FontAwesomeIcon icon={["fab", "github"]} size="5x" />
               </Card.Body>
             </Card>
-            <Row>Photo</Row>
-            <Row>
-              <FontAwesomeIcon icon={["fab", "linkedin"]} size="5x" />
-              |
-              <FontAwesomeIcon icon={["fab", "github"]} size="5x" />
-            </Row>
           </Col>
         </Row>
       </Container>

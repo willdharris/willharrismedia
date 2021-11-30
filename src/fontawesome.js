@@ -1,19 +1,32 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faCode, faHighlighter } from "@fortawesome/free-solid-svg-icons";
-
+import { faTerminal, faCoffee } from "@fortawesome/free-solid-svg-icons";
 import {
-  faGithubAlt,
-  faGoogle,
-  faFacebook,
-  faTwitter,
+  faGithub,
+  faLinkedin,
+  faHtml5,
+  faCss3,
+  faJs,
+  faReact,
+  faChrome,
+  faGitAlt,
+  faSass,
+  faBootstrap,
+  faAws,
+  faSketch,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
-  faCode,
-  faHighlighter,
-  faGithubAlt,
-  faGoogle,
-  faFacebook,
-  faTwitter
-  // more icons go here
+  faGithub,
+  faLinkedin,
+  faHtml5,
+  faCss3,
+  faJs,
+  faReact,
+  faChrome,
+  faGitAlt,
+  faSass,
+  faBootstrap,
+  faAws,
+  faTerminal,
+  faSketch
 );

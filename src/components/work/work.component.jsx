@@ -1,22 +1,18 @@
 import React from "react";
+import Projects from "../projects/projects.component";
+import { Container, Col, Row, Card } from "react-bootstrap";
 
 import "./work.styles.scss";
 
 const Work = () => (
   <div className="work">
-    <h1>work</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut
-      sem. Ut consequat semper viverra nam libero. Dui nunc mattis enim ut. Quam
-      adipiscing vitae proin sagittis nisl rhoncus. Adipiscing elit ut aliquam
-      purus sit. Venenatis a condimentum vitae sapien. Aenean euismod elementum
-      nisi quis eleifend. Neque ornare aenean euismod elementum nisi. In
-      fermentum posuere urna nec tincidunt praesent semper. Duis tristique
-      sollicitudin nibh sit. Sed tempus urna et pharetra pharetra massa. Porta
-      nibh venenatis cras sed. Nulla aliquet enim tortor at auctor urna nunc id.
-      Bibendum enim facilisis gravida neque convallis a.
-    </p>
+    <Container>
+      <h1>work</h1>
+      <p>A selection of web projects I have built.</p>
+      <Container>
+        <Projects />
+      </Container>
+    </Container>
   </div>
 );
 

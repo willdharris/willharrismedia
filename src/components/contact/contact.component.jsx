@@ -1,22 +1,29 @@
 import React from "react";
-
+import { Container, Button } from "react-bootstrap";
 import "./contact.styles.scss";
 
 const Contact = () => (
   <div className="contact">
     <h1>contact</h1>
+    <h3>get in touch</h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut
-      sem. Ut consequat semper viverra nam libero. Dui nunc mattis enim ut. Quam
-      adipiscing vitae proin sagittis nisl rhoncus. Adipiscing elit ut aliquam
-      purus sit. Venenatis a condimentum vitae sapien. Aenean euismod elementum
-      nisi quis eleifend. Neque ornare aenean euismod elementum nisi. In
-      fermentum posuere urna nec tincidunt praesent semper. Duis tristique
-      sollicitudin nibh sit. Sed tempus urna et pharetra pharetra massa. Porta
-      nibh venenatis cras sed. Nulla aliquet enim tortor at auctor urna nunc id.
-      Bibendum enim facilisis gravida neque convallis a.
+      I'm always open for new work opportunities. If you would like to get in
+      touch you can message me on{" "}
+      <a href="https://www.linkedin.com/in/willdharris/" target="_blank">
+        LinkedIn
+      </a>{" "}
+      or shoot me an email. I'd love to here from you!
     </p>
+    <>
+      {" "}
+      <Button
+        variant="outline-primary"
+        href="mailto:willharrismedia@gmail.com"
+        target="_blank"
+      >
+        Say Hello
+      </Button>{" "}
+    </>
   </div>
 );
 
