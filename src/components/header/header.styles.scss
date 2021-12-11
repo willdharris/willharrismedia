@@ -1,16 +1,40 @@
-.header {
-  // position: absolute;
-  font-family: "Anonymous Pro", monospace;
-  // border: dotted 2px black;
-  // max-width: 1140px;
-  // background-color: purple;
-
-  // flex-direction: row;
-  // align-items: center;
-  // justify-content: space-evenly;
-  margin-bottom: auto;
-
-  // background-color: #4f4f4f;
-  // border: dotted 2px black;
+@import "../../variables";
+header {
+  position: absolute;
+  z-index: 600;
   width: 100%;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+  margin-bottom: auto;
+  // background-color: #4f4f4f;
+  // opacity: 0.7;
+  width: 100%;
+}
+
+.navbar {
+  padding: 30px 0;
+  color: bisque;
+}
+.container {
+  max-width: 1140px;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+.nav-num {
+  font-size: 0.7em;
+  color: $bluehilight;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $gray1;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: $gray2;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  color: $gray1;
+}
+.navbar-dark .navbar-nav .nav-link.active:hover {
+  color: $gray2;
 }

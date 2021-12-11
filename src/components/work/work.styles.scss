@@ -1,5 +1,27 @@
+@import "../../variables";
+
 .work {
-  min-height: 30vh;
-  border: solid purple 2px;
-  font-family: "Anonymous Pro", monospace;
+  min-height: 80vh;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  background-color: $charcoal1;
+  // background: linear-gradient(180deg, $mtnnavy 0%, $mtnpurple 100%);
+  color: $white;
+  border-top: solid 1px $charcoal2;
+  // font-family: "Anonymous Pro", monospace;
+  a {
+    color: $charcoal1;
+  }
+}
+.work-inner {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 2rem;
+}
+.work-projects {
+  color: black;
+}
+.work-header {
+  margin-bottom: 2em;
 }

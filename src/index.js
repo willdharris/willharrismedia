@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./App.scss";
 import "./custom.scss";
-import "./index.css";
+import "./index.scss";
 import "./fontawesome";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";

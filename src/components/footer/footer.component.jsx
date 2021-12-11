@@ -3,17 +3,9 @@ import React from "react";
 import "./footer.styles.scss";
 function Footer() {
   return (
-    <div className="footer">
-      <p>Designed and built by Will Harris.</p>
-
-      {/* <div className="options">
-        <div className="option">home</div>
-        <div className="option">about</div>
-        <div className="option">work</div>
-        <div className="option">skills</div>
-        <div className="option">contact</div>
-      </div> */}
-    </div>
+    <section>
+      <div className="footer">Designed and built by Will Harris.</div>
+    </section>
   );
 }
 

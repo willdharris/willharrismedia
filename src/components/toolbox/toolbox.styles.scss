@@ -1,5 +1,19 @@
+@import "../../variables";
+
 .skillcard {
-  border: 1px solid #f7f7f7;
-  box-shadow: 0 0 10px 5px rgba(253, 248, 247, 69%);
-  font-family: "Anonymous Pro", monospace;
+  // border: 1px solid #f7f7f7;
+  padding: 5px;
+  background-color: $charcoal1;
+  // hover off
+  transition: all 250ms;
+  //   box-shadow: 0 0 10px 5px rgba(253, 248, 247, 69%);
+}
+.skillcard:hover {
+  transition: all 500ms;
+  background-color: $gray2;
+  color: $charcoal1;
+
+  a {
+    color: $charcoal1;
+  }
 }

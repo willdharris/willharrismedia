@@ -3,24 +3,36 @@ import Toolbox from "../toolbox/toolbox.component";
 import Certifications from "../certifications/certifications.component";
 import "./skills.styles.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Container, Col, Row, Card } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Skills = () => (
-  <div className="skills">
+  <section className="skills" id="skills">
     <Container>
       {" "}
-      <h1>skills</h1>
-      <h3>education and certifications</h3>
-      <Container>
-        <Certifications />
-      </Container>
-      <h3>toolbox</h3>
-      <p>Some of the tools I use to design and build.</p>
-      <Container>
-        <Toolbox />
-      </Container>
+      <div className="skills-inner">
+        <div className="skills-header">
+          <h1>Skills</h1>
+          <div className="skills-header">
+            <div className="skills-sub">
+              <h4>Toolbox</h4>
+              <h5>Some of the tools I use to design and build.</h5>
+            </div>
+          </div>
+          <Container>
+            <Toolbox />
+          </Container>
+
+          <div className="horizontal-divide"></div>
+          <div className="skills-sub">
+            <h4>Certifications</h4>
+          </div>
+        </div>
+        <Container>
+          <Certifications />
+        </Container>
+      </div>
     </Container>
-  </div>
+  </section>
 );
 
 export default Skills;

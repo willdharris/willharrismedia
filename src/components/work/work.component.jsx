@@ -1,19 +1,23 @@
 import React from "react";
 import Projects from "../projects/projects.component";
-import { Container, Col, Row, Card } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 import "./work.styles.scss";
 
 const Work = () => (
-  <div className="work">
+  <section className="work" id="work">
     <Container>
-      <h1>work</h1>
-      <p>A selection of web projects I have built.</p>
-      <Container>
-        <Projects />
-      </Container>
+      <div className="work-inner">
+        <div className="work-header">
+          <h1>Work</h1>
+          <h4>A selection of web projects I have built.</h4>
+        </div>
+        <Container className="work-projects">
+          <Projects />
+        </Container>
+      </div>
     </Container>
-  </div>
+  </section>
 );
 
 export default Work;

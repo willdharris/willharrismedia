@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Container, Col, Row, Card } from "react-bootstrap";
+import { Col, Row, Card } from "react-bootstrap";
 import "./toolbox.styles.scss";
 
 const Toolbox = () => {
@@ -29,9 +29,7 @@ const Toolbox = () => {
               <Card.Title>
                 <FontAwesomeIcon icon={skill.title} size="3x" />
               </Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-                {skill.subtitle}
-              </Card.Subtitle>
+              <Card.Subtitle className="mb-2 ">{skill.subtitle}</Card.Subtitle>
             </Card.Body>
           </Card>
         </Col>
