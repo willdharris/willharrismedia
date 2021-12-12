@@ -8,19 +8,17 @@ import About from "./components/about/about.component";
 import Work from "./components/work/work.component";
 import Skills from "./components/skills/skills.component";
 import Contact from "./components/contact/contact.component";
-
 import Footer from "./components/footer/footer.component";
+import Fade from "react-reveal/Fade";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Home />
-      {/* <HomePage /> */}
       <About />
       <Work />
       <Skills />
-
       <Contact />
       <Footer />
     </div>

@@ -4,7 +4,9 @@
   // border: 1px solid #f7f7f7;
   padding: 5px;
   background-color: $charcoal1;
-  // hover off
+  a {
+    color: $gray2;
+  }
   transition: all 250ms;
   //   box-shadow: 0 0 10px 5px rgba(253, 248, 247, 69%);
 }

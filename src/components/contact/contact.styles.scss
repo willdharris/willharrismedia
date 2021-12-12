@@ -5,18 +5,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // background-color: $mtnpurple;
-  // color: $white;
+
   width: 100%;
   border-top: solid 1px $charcoal2;
 
-  a:hover {
+  a {
     color: $bluehilight;
   }
 }
 
 .contact-inner {
-  // background-color: $white;
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 2rem;
@@ -24,33 +22,5 @@
   .contact-body {
     margin-top: 40px;
     margin-bottom: 40px;
-    // font-size: 1.1rem;
   }
-}
-
-.hero-link {
-  display: inline-block;
-  color: inherit;
-  position: relative;
-}
-.hero-link::before {
-  background-color: yellowgreen;
-}
-.hero-link::after {
-  background-color: yellow;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-}
-.hero-link::before,
-.hero-link::after {
-  // background-color: $mtnpurple;
-  content: "";
-  display: block;
-  height: 0.5em;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
 }

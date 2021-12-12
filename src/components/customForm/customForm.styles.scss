@@ -1,0 +1,25 @@
+@import "../../variables";
+
+.form-error {
+  color: $redhilight;
+}
+
+.submit-success {
+  margin-top: 20px;
+  color: $greenhilight;
+}
+.submit-error {
+  margin-top: 20px;
+  color: $redhilight;
+}
+.btn {
+  margin-top: 20px;
+}
+label {
+  font-family: $headerfont;
+  font-size: 2em;
+}
+
+a {
+  color: $redhilight;
+}
