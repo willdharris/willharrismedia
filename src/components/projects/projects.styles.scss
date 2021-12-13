@@ -1,0 +1,7 @@
+@import "../../variables";
+
+.projects {
+  a {
+    @include hyperlink;
+  }
+}

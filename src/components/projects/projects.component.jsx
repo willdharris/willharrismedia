@@ -36,10 +36,10 @@ const Projects = () => {
     },
   ]);
   return (
-    <Row xs={1} md={1} lg={1} className="g-4">
+    <Row xs={1} md={1} lg={2} className="g-4 justify-content-center">
       {projects.map((project, idx) => (
         <Col>
-          <Card>
+          <Card className="projects">
             <Card.Body>
               <Card.Title>{project.title}</Card.Title>
               <Card.Subtitle className="mb-2 ">

@@ -13,7 +13,11 @@ const Contact = () => (
           <h5>
             Have a question or proposal, or just want to say hello? You can
             message me on{" "}
-            <a href="https://www.linkedin.com/in/willdharris/" target="_blank">
+            <a
+              className="hyper"
+              href="https://www.linkedin.com/in/willdharris/"
+              target="_blank"
+            >
               LinkedIn
             </a>{" "}
             or send a message below.

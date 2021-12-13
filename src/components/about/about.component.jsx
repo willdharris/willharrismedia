@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import headshot from "../../assets/profilepicsquare-300x300.jpeg";
 
 import "./about.styles.scss";
@@ -78,7 +79,7 @@ const About = () => (
             </div>
           </Col>
           <Col className="image-container">
-            <div className="image-container">
+            <div>
               <div className="profile-pic">
                 <div className="wrapper">
                   <div>
@@ -91,6 +92,17 @@ const About = () => (
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="socials">
+              <a
+                href="https://www.linkedin.com/in/willdharris/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={["fab", "linkedin"]} />
+              </a>
+              <a href="https://github.com/willdharris" target="_blank">
+                <FontAwesomeIcon icon={["fab", "github"]} />
+              </a>
             </div>
           </Col>
         </Row>

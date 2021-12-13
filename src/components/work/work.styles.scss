@@ -10,9 +10,6 @@
   color: $white;
   border-top: solid 1px $charcoal2;
   // font-family: "Anonymous Pro", monospace;
-  a {
-    color: $charcoal1;
-  }
 }
 .work-inner {
   margin-top: 40px;
@@ -20,8 +17,15 @@
   padding: 2rem;
 }
 .work-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   color: black;
 }
 .work-header {
   margin-bottom: 2em;
+}
+.project {
+  flex: 1 0 50%;
 }

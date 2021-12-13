@@ -24,3 +24,7 @@
     margin-bottom: 40px;
   }
 }
+
+.hyper {
+  @include hyperlink;
+}

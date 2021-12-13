@@ -32,6 +32,7 @@
   justify-content: center;
   margin-bottom: 20px;
   z-index: 2;
+  flex-direction: column;
 }
 .profile-pic {
   position: relative;
@@ -56,5 +57,18 @@ ul {
   list-style-type: none;
   li {
     margin-bottom: 10px;
+  }
+}
+.socials {
+  margin-top: 40px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 3em;
+  a {
+    color: $gray2;
+    &:hover {
+      color: $lightblue;
+    }
   }
 }
