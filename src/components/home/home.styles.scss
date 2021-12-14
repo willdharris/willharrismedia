@@ -10,11 +10,8 @@
   text-align: left;
   color: $white;
 }
-.bg {
-  // background-image: url(https://unice.pixelstrapthemes.vercel.app/assets/images/app_landing1/header-1-bg.png);
 
-  // background: rgb(19, 184, 234);
-  // background: linear-gradient(90deg, $mtnnavy 0%, $mtnpurple 100%);
+.bg {
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,6 +28,14 @@
 .sub-heading {
   font-size: 3em;
   margin-top: -40px;
+}
+.curly {
+  color: $bluehilight;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.description {
+  font-family: "Anonymous Pro", monospace;
 }
 .side-nav {
   z-index: 999;

@@ -15,16 +15,24 @@ function Header() {
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ms-auto">
                   <Nav.Link href="#about">
-                    <span className="nav-num">01.</span> About
+                    <div className="nav-section">
+                      <span className="nav-num">01.</span> <span>About</span>
+                    </div>
                   </Nav.Link>
                   <Nav.Link href="#work">
-                    <span className="nav-num">02.</span>Work
+                    <div className="nav-section">
+                      <span className="nav-num">02.</span>Work
+                    </div>
                   </Nav.Link>
                   <Nav.Link href="#skills">
-                    <span className="nav-num">03.</span>Skills
+                    <div className="nav-section">
+                      <span className="nav-num">03.</span>Skills
+                    </div>
                   </Nav.Link>
                   <Nav.Link href="#contact">
-                    <span className="nav-num">04.</span>Contact
+                    <div className="nav-section">
+                      <span className="nav-num">04.</span>Contact
+                    </div>
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>

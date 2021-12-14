@@ -1,7 +1,7 @@
 import { React, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { useFormik } from "formik";
-import { Col, Row, Form, Button } from "react-bootstrap";
+import { Col, Row, Form, Button, Spinner } from "react-bootstrap";
 import * as Yup from "yup";
 
 import "./customForm.styles.scss";
@@ -10,6 +10,7 @@ const CustomForm = () => {
   // state to hide/show form submission response from emailjs
   const [showSuccess, setShowSuccess] = useState(false);
   const [showError, setShowError] = useState(false);
+  const [showSpin, setShowSpin] = useState(false);
 
   // form validation setup
   const formik = useFormik({
@@ -26,6 +27,7 @@ const CustomForm = () => {
       message: Yup.string().required("Please include a message"),
     }),
     onSubmit: () => {
+      setShowSpin(true);
       emailjs
         .sendForm(
           "service_h6e7kwy",
@@ -36,10 +38,12 @@ const CustomForm = () => {
         .then(
           function (response) {
             console.log("SUCCESS!", response.status, response.text);
+            setShowSpin(false);
             setShowSuccess(true);
           },
           function (error) {
             console.log("FAILED...", error);
+            setShowSpin(false);
             setShowError(true);
           }
         );
@@ -96,10 +100,14 @@ const CustomForm = () => {
           <div className="form-error">{formik.errors.message}</div>
         ) : null}
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button variant="outline-primary" type="submit">
         Send Message
       </Button>
       <div className="submission">
+        <div className="submit-load">
+          {showSpin ? <Spinner animation="border"></Spinner> : null}
+        </div>
+
         <div className="submit-success">
           {showSuccess ? (
             <div>Thank You! I will reply to your message as soon as I can.</div>

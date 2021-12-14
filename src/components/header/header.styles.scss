@@ -6,14 +6,11 @@ header {
   font-family: "Bebas Neue", cursive;
   font-size: 1.5rem;
   margin-bottom: auto;
-  // background-color: #4f4f4f;
-  // opacity: 0.7;
   width: 100%;
 }
 
 .navbar {
   padding: 30px 0;
-  color: bisque;
 }
 .container {
   max-width: 1140px;
@@ -27,14 +24,18 @@ header {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: $white;
+  color: $gray2;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
   color: $gray2;
 }
 .navbar-dark .navbar-nav .nav-link.active {
-  color: $gray1;
+  color: $gray2;
 }
 .navbar-dark .navbar-nav .nav-link.active:hover {
   color: $gray2;
+}
+
+.nav-section {
+  @include hyperlink;
 }

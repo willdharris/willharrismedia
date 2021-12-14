@@ -4,12 +4,16 @@
   color: $redhilight;
 }
 
-.submit-success {
+.submit-load,
+.submit-success,
+.submit-error {
   margin-top: 20px;
+}
+
+.submit-success {
   color: $greenhilight;
 }
 .submit-error {
-  margin-top: 20px;
   color: $redhilight;
 }
 .btn {

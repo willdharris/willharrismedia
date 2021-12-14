@@ -5,6 +5,9 @@ import aws from "../../assets/aws.png";
 import ibmReact from "../../assets/ibm-react.png";
 import designThinking from "../../assets/design-thinking.png";
 import agile from "../../assets/agile.png";
+import ai from "../../assets/ai.png";
+import people from "../../assets/people.png";
+import dataSci from "../../assets/data-science.png";
 
 const Certifications = () => {
   const [certifications, setCertifications] = useState([
@@ -33,16 +36,42 @@ const Certifications = () => {
       id: 3,
     },
     {
+      title: ["EDT - Team Essentials for AI"],
+      subtitle: "IBM",
+      description:
+        "Certified IBM Enterprise Design Thinking - Team Essentials for AI",
+      img: ai,
+      url: "https://www.credly.com/badges/3b5cd61b-2012-4ed2-a7ce-5a5dff36d7f9/public_url",
+      id: 4,
+    },
+    {
       title: ["IBM Agile Exlporer"],
       subtitle: "IBM",
       description: "Certified IBM Agile Exlporer",
       img: agile,
       url: "https://www.credly.com/badges/05039495-b01c-4d95-b9b8-3967e7dbb411/public_url",
-      id: 3,
+      id: 5,
+    },
+    {
+      title: ["IBM People Skills"],
+      subtitle: "IBM",
+      description:
+        "Certified People Skills - Communication, Presentation, Collaboration, and Problem Solving",
+      img: people,
+      url: "https://www.credly.com/badges/e238f4d7-d174-470d-bab5-dda8bfb328f3/public_url",
+      id: 6,
+    },
+    {
+      title: ["IBM Data Science Foundations"],
+      subtitle: "IBM",
+      description: "Certified Data Science Foundations - Level 1",
+      img: dataSci,
+      url: "https://www.credly.com/badges/5de4892d-e566-4211-b58a-da33eb55bee1/public_url",
+      id: 7,
     },
   ]);
   return (
-    <Row xs={1} md={3} lg={4} className="g-4">
+    <Row xs={1} md={3} lg={4} className="g-4 justify-content-center">
       {certifications.map((certification, idx) => (
         <Col>
           <Card className="skillcard">
