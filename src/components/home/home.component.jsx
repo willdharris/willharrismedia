@@ -1,15 +1,28 @@
-import React from "react";
+import { useState, React } from "react";
 import { Container, Row, Nav } from "react-bootstrap";
-
+import useInterval from "../../hooks/useInterval";
 import "./home.styles.scss";
 
 function Home() {
-  const description = [
-    "Problem Solver",
+  const descriptions = [
     "Dot Connector",
     "Detail Stickler",
     "Design Thinker",
+    "Problem Solver",
   ];
+  const numDescriptions = descriptions.length;
+  const [count, setCount] = useState(0);
+  const [description, setDescription] = useState("Problem Solver");
+
+  useInterval(() => {
+    // setCount
+    if (count === numDescriptions - 1) {
+      setCount(0);
+    } else {
+      setCount(count + 1);
+    }
+    setDescription(descriptions[count]);
+  }, 3000);
 
   return (
     <section className="home" id="home">
@@ -24,7 +37,7 @@ function Home() {
                 </div>
                 <div className="sub-heading">
                   Frontend Developer and <span className="curly">{"{"}</span>
-                  <span className="description">{description[0]}</span>
+                  <span className="description">{description}</span>
                   <span className="curly">{"}"}</span>.
                 </div>
                 <nav
