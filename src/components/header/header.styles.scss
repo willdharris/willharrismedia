@@ -1,6 +1,6 @@
 @import "../../variables";
 header {
-  position: absolute;
+  // position: absolute;
   z-index: 600;
   width: 100%;
   font-family: "Bebas Neue", cursive;
@@ -11,12 +11,14 @@ header {
 
 .navbar {
   padding: 30px 0;
+  background-color: $charcoal1op;
 }
 .container {
   max-width: 1140px;
 }
 .navbar-brand {
   font-size: 2rem;
+  // font-family: "Anonymous Pro", monospace;
 }
 .nav-num {
   font-size: 0.7em;

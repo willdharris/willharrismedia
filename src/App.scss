@@ -1,4 +1,3 @@
-// @import "~bootstrap/scss/bootstrap";
 @import "custom";
 @import "variables";
 .App {
@@ -6,9 +5,7 @@
   font-family: "Lato", sans-serif;
   background-color: $charcoal1;
   color: $gray2;
-  // font-family: "Bebas Neue", cursive;
-  // font-family: "Rubik", sans-serif;
-  //   color: #fff;
+
   h1 {
     font-family: "Bebas Neue", cursive;
     font-size: 4em;
@@ -20,11 +17,24 @@
   }
   a {
     text-decoration: none;
-    // color: $white;
+
     background-color: transparent;
   }
   a:hover {
     text-decoration: none;
-    // color: $lightblue;
+  }
+  .sec-num {
+    font-size: 0.75em;
+    color: $bluehilight;
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .side-nav {
+    visibility: hidden;
+  }
+  .home-body {
+    text-align: center;
   }
 }

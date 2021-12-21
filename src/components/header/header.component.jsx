@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Navbar, Nav, NavDropdown, Row, Col } from "react-bootstrap";
-import useInterval from "../../hooks/useInterval";
+import { Container, Navbar, Nav, Row, Col } from "react-bootstrap";
 import "./header.styles.scss";
 
 function Header() {
@@ -10,7 +9,11 @@ function Header() {
         <Row>
           <Col>
             <Navbar collapseOnSelect expand="lg" bg="none" variant="dark">
-              <Navbar.Brand href="#home">wh</Navbar.Brand>
+              <Navbar.Brand href="#home">
+                <span className="curly">{"{"}</span>
+                <span className="description">wh</span>
+                <span className="curly">{"}"}</span>
+              </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ms-auto">

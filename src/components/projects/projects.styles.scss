@@ -1,7 +1,15 @@
 @import "../../variables";
 
 .projects {
+  .title {
+    font-family: $headerfont;
+    font-size: 2em;
+  }
   a {
     @include hyperlink;
+    font-family: $headerfont;
+    font-size: 2em;
+    margin: 0 20px;
+    color: $charcoal2;
   }
 }

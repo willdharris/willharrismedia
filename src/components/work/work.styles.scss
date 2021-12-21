@@ -3,13 +3,10 @@
 .work {
   min-height: 80vh;
   display: flex;
-  // align-items: center;
   justify-content: center;
   background-color: $charcoal1;
-  // background: linear-gradient(180deg, $mtnnavy 0%, $mtnpurple 100%);
-  color: $white;
+  color: $gray2;
   border-top: solid 1px $charcoal2;
-  // font-family: "Anonymous Pro", monospace;
 }
 .work-inner {
   margin-top: 40px;
@@ -21,7 +18,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: $charcoal1;
 }
 .work-header {
   margin-bottom: 2em;

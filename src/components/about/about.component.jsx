@@ -9,7 +9,9 @@ const About = () => (
   <section className="about" id="about">
     <Container>
       <div className="about-inner">
-        <h1>About</h1>
+        <h1>
+          <span className="sec-num">01.</span>About
+        </h1>
         <Row className="center-text">
           <Col md={7} lg={6}>
             <div className="about-copy">
@@ -17,22 +19,22 @@ const About = () => (
                 <li>
                   I thrive in the space between the creative and the technical.
                   With a background in music and audio engineering, then
-                  spending over 7 years in tech, I found my flow in Frontend
-                  development. I love the collaboration of science and art that
-                  make up Frontend. I’m passionate about intentional design,
-                  clean code, and building tools and experiences that ultimately
-                  improve the human experience.{" "}
+                  spending over 7 years in tech, I found my sweet spot in
+                  Frontend development. I love the collaboration of science and
+                  art that make up Frontend. I'm passionate about intentional
+                  design, clean code, and building tools and experiences that
+                  ultimately improve the human experience.{" "}
                 </li>
                 <li>
                   In my current job, I support cloud applications at IBM and
-                  build custom apps to improve business operations. I’m at home
+                  build custom apps to improve business operations. I'm at home
                   with HTML, CSS, JavaScript, and React, but I love learning new
                   technologies and languages.{" "}
                 </li>
                 <li>
-                  Offline, I’m helping my wife raise our three little humans.
-                  And if the stars align, I’m somewhere off the grid on a
-                  mountain bike...but realistically I’m probably just on the
+                  Offline, I'm helping my wife raise our three little humans.
+                  And if the stars align, I'm somewhere off the grid on a
+                  mountain bike...but realistically I'm probably just on the
                   couch watching football or the Braves.
                 </li>
               </ul>
@@ -93,6 +95,7 @@ const About = () => (
                 </div>
               </div>
             </div>
+
             <div className="socials">
               <a
                 href="https://www.linkedin.com/in/willdharris/"

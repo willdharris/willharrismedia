@@ -1,51 +1,9 @@
 // theme colors
-
-$firstcolor: #3d7c47;
-$secondcolor: #09868b;
-$thirdcolor: #76c1d4;
-$lightgray: #f7f7f7;
-
-// purple theme colors
-$alt-firstcolor: #a0d2eb;
-$alt-secondcolor: #e5eaf5;
-$alt-thirdcolor: #d0bdf4;
-$alt-fourthcolor: #8458b3;
-$alt-fifthcolor: #a28089;
-
-//blue theme
-$darkblue: #0984e3;
-$lightblue: #74b9ff;
-$grayblue: #636e72;
-$darkgray: #2d3436;
-
-// cactus green theme
-$darkgreen: #164a41;
-$mediumgreen: #4d774e;
-$lightgreen: #9dc88d;
-$natyellow: #f1b24a;
-$white: #ffffff;
-
-// grayscale plus
-
-$blackish: #202020;
-$darkgrayscale: #3f3f3f;
-$mediumgrayscale: #707070;
-$eggyellow: #ffdf6c;
-
-$harleyorange: #c23616;
-
-// mountain
-
-$mtnnavy: #22252c;
-$mtnpurple: #3f3250;
-$mtnscrub: #c0b3a0;
-$mtnoffwhite: #f9f9f9;
-
-// darkmode
 $charcoal1: #1d1f21;
 $charcoal2: #313538;
 $gray1: #a5a5a6;
 $gray2: #f5f5f5;
+$charcoal1op: rgba(#1d1f21, 0.7);
 
 $greenhilight: #26ffae;
 $bluehilight: #1da1f2;
@@ -53,6 +11,7 @@ $redhilight: #ff3333;
 
 //fonts
 $headerfont: "Bebas Neue", cursive;
+$monofont: "Anonymous Pro", monospace;
 
 // mixins
 @mixin hyperlink {

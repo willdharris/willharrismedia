@@ -7,11 +7,10 @@
   a {
     color: $gray2;
   }
-  transition: all 250ms;
+  transition: all 500ms;
   //   box-shadow: 0 0 10px 5px rgba(253, 248, 247, 69%);
 }
 .skillcard:hover {
-  transition: all 500ms;
   background-color: $gray2;
   color: $charcoal1;
 

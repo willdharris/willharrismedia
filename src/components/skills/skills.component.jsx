@@ -11,7 +11,9 @@ const Skills = () => (
       {" "}
       <div className="skills-inner">
         <div className="skills-header">
-          <h1>Skills</h1>
+          <h1>
+            <span className="sec-num">03.</span>Skills
+          </h1>
           <div className="skills-header">
             <div className="skills-sub">
               <h4>Toolbox</h4>

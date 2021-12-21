@@ -8,7 +8,9 @@ const Contact = () => (
   <section className="contact" id="contact">
     <Container>
       <div className="contact-inner">
-        <h1>Contact</h1>
+        <h1>
+          <span className="sec-num">04.</span>Contact
+        </h1>
         <div className="contact-body">
           <h5>
             Have a question or proposal, or just want to say hello? You can

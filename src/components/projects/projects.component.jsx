@@ -8,30 +8,32 @@ import lookup from "../../assets/lookup.png";
 const Projects = () => {
   const [projects, setProjects] = useState([
     {
+      title: ["TV Programming Guide"],
+      subtitle: "HTML, CSS, Vanilla JS, REST API",
+      description:
+        "A web app to view the programming schedules of Discovery networks all in one place. Eliminates the need to search 16 different websites each day, saving hours of labor per year.",
+      repo: "https://github.com/willdharris/discovery",
+      demo: "https://discoveryepg.netlify.app/",
+      img: epg,
+      id: 1,
+    },
+    {
+      title: ["Custom Lookup Web App"],
+      subtitle: "IBM Carbon Design System, Vanilla JS, XLS to JSON",
+      description:
+        "A custom app to simplify and expedite manual lookup processes. XLS sheets are converted to JSON, objects are compared, then delta list is generated and exported. ",
+      repo: "https://github.com/willdharris/vlm-distro-map",
+      demo: "https://vlm-ms-tools.netlify.app/",
+      img: lookup,
+      id: 2,
+    },
+    {
       title: ["Spotify Clone"],
       subtitle: "React, OAuth, RestAPI",
       description: "spotify clone full stack project",
       repo: "https://github.com/willdharris",
       demo: "https://www.spotify.com/us/",
       img: spotify,
-      id: 1,
-    },
-    {
-      title: ["TV Programming Guide"],
-      subtitle: "HTML, CSS, Vanilla JS, APIs",
-      description: "custom epg for ops team",
-      repo: "https://github.com/willdharris/discovery",
-      demo: "https://discoveryepg.netlify.app/",
-      img: epg,
-      id: 2,
-    },
-    {
-      title: ["Custom Lookup Web App"],
-      subtitle: "IBM Carbon Design System, Vanilla JS, xls to JSON",
-      description: "custom lookup app for ops team",
-      repo: "https://github.com/willdharris/vlm-distro-map",
-      demo: "https://vlm-ms-tools.netlify.app/",
-      img: lookup,
       id: 3,
     },
   ]);
@@ -41,7 +43,7 @@ const Projects = () => {
         <Col>
           <Card className="projects">
             <Card.Body>
-              <Card.Title>{project.title}</Card.Title>
+              <Card.Title className="title">{project.title}</Card.Title>
               <Card.Subtitle className="mb-2 ">
                 {project.subtitle}
               </Card.Subtitle>

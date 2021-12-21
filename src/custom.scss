@@ -1,5 +1,5 @@
 // Override default variables before the import
-// $body-bg: rgb(212, 57, 255);
+
 @import "./variables";
 $theme-colors: (
   "primary": $gray2,
@@ -15,6 +15,13 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px,
 );
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body {
+    color: green;
+  }
+}
 
 // Import Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap.scss";

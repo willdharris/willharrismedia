@@ -1,23 +1,19 @@
 @import "../../variables";
 
-.home-landing {
+.home {
   height: 100vh;
-  display: flex;
-  align-items: center;
-}
-.home-body {
-  //   margin-top: 200px;
-  text-align: left;
-  color: $white;
 }
 
-.bg {
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: 100vh;
+.home-landing {
+  display: flex;
+  align-items: center;
+  height: 70%;
 }
+.home-body {
+  text-align: left;
+  color: $gray2;
+}
+
 .greeting {
   font-size: 2em;
 }
@@ -25,25 +21,41 @@
   font-family: "Bebas Neue", cursive;
   font-size: 10em;
 }
+
 .sub-heading {
   font-size: 3em;
   margin-top: -40px;
+  display: inline-block;
 }
 .curly {
   color: $bluehilight;
-  font-family: "Anonymous Pro", monospace;
+  font-family: $monofont;
+}
+.chontainer {
+  display: inline-block;
+}
+.mobile-line-break {
+  display: none;
 }
 
 .description {
-  font-family: "Anonymous Pro", monospace;
+  font-family: $monofont;
+  background-color: $charcoal2;
+  color: $gray2;
+  padding: 0 5px;
+  transition: all ease 150ms;
 }
+.description:hover {
+  background-color: $gray2;
+  color: $charcoal2;
+}
+
 .side-nav {
   z-index: 999;
   display: flex;
 
   position: fixed;
-  margin-top: -180px;
-  color: #4831d4;
+  margin-top: -220px;
   right: 4em;
   width: 40px;
   ul {
@@ -96,5 +108,49 @@
     transform: scale(1.5);
     transition: all 200ms;
     color: $bluehilight;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .side-nav {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .mobile-line-break {
+    display: block;
+  }
+  .home-landing {
+    justify-content: center;
+  }
+  .home-body {
+    text-align: center;
+    font-size: 80%;
+  }
+  .big-heading {
+    margin-top: 30px;
+    line-height: 0.8em;
+  }
+  .sub-heading {
+    font-size: 2.5em;
+    margin-top: 20px;
+    // display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .home-body {
+    text-align: center;
+    font-size: 70%;
+  }
+  .big-heading {
+    margin-top: 30px;
+    line-height: 0.8em;
+  }
+  .sub-heading {
+    font-size: 2.5em;
+    margin-top: 20px;
+    display: block;
   }
 }
