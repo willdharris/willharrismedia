@@ -78,7 +78,7 @@ const Certifications = () => {
     },
   ];
   return (
-    <Row xs={1} md={3} lg={4} className="g-4 justify-content-center">
+    <Row xs={1} sm={2} md={2} lg={4} className="g-4 justify-content-center">
       {certifications.map((certification, idx) => (
         <Col key={`cert${certification.id}`}>
           <Card className="skillcard">

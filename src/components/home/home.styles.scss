@@ -101,7 +101,7 @@
     width: 100%;
     height: 0.523em;
     position: absolute;
-    // border: 1px solid $mtnscrub;
+
     transition: transform 0.2s 100ms;
   }
   .side-link:hover {
@@ -134,7 +134,7 @@
   }
   .sub-heading {
     font-size: 2.5em;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 
@@ -144,12 +144,10 @@
     font-size: 70%;
   }
   .big-heading {
-    // margin-top: 30px;
     line-height: 0.9em;
   }
   .sub-heading {
     font-size: 2.5em;
-    // margin-top: 20px;
     display: block;
   }
 }
