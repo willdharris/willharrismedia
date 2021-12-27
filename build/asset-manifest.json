@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "./static/css/main.5190a62c.chunk.css",
-    "main.js": "./static/js/main.0ba3cac5.chunk.js",
-    "main.js.map": "./static/js/main.0ba3cac5.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.6b9a2c23.js",
-    "runtime-main.js.map": "./static/js/runtime-main.6b9a2c23.js.map",
-    "static/js/2.c7e47623.chunk.js": "./static/js/2.c7e47623.chunk.js",
-    "static/js/2.c7e47623.chunk.js.map": "./static/js/2.c7e47623.chunk.js.map",
-    "static/js/3.ba01c306.chunk.js": "./static/js/3.ba01c306.chunk.js",
-    "static/js/3.ba01c306.chunk.js.map": "./static/js/3.ba01c306.chunk.js.map",
+    "main.css": "./static/css/main.7c8dd23c.chunk.css",
+    "main.js": "./static/js/main.826c32d2.chunk.js",
+    "main.js.map": "./static/js/main.826c32d2.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.01709685.js",
+    "runtime-main.js.map": "./static/js/runtime-main.01709685.js.map",
+    "static/js/2.95adeece.chunk.js": "./static/js/2.95adeece.chunk.js",
+    "static/js/2.95adeece.chunk.js.map": "./static/js/2.95adeece.chunk.js.map",
+    "static/js/3.f27d40cd.chunk.js": "./static/js/3.f27d40cd.chunk.js",
+    "static/js/3.f27d40cd.chunk.js.map": "./static/js/3.f27d40cd.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.5190a62c.chunk.css.map": "./static/css/main.5190a62c.chunk.css.map",
-    "static/js/2.c7e47623.chunk.js.LICENSE.txt": "./static/js/2.c7e47623.chunk.js.LICENSE.txt"
+    "static/css/main.7c8dd23c.chunk.css.map": "./static/css/main.7c8dd23c.chunk.css.map",
+    "static/js/2.95adeece.chunk.js.LICENSE.txt": "./static/js/2.95adeece.chunk.js.LICENSE.txt",
+    "static/media/agile.c554d529.png": "./static/media/agile.c554d529.png",
+    "static/media/ai.02110737.png": "./static/media/ai.02110737.png",
+    "static/media/aws.b4733b9a.png": "./static/media/aws.b4733b9a.png",
+    "static/media/data-science.95784179.png": "./static/media/data-science.95784179.png",
+    "static/media/design-thinking.09b7070e.png": "./static/media/design-thinking.09b7070e.png",
+    "static/media/epg.b3f2c342.png": "./static/media/epg.b3f2c342.png",
+    "static/media/ibm-react.1fc17849.png": "./static/media/ibm-react.1fc17849.png",
+    "static/media/lookup.de252ac7.png": "./static/media/lookup.de252ac7.png",
+    "static/media/people.e17d1d61.png": "./static/media/people.e17d1d61.png",
+    "static/media/profilepicsquare-300x300.d9bc0ac3.jpeg": "./static/media/profilepicsquare-300x300.d9bc0ac3.jpeg",
+    "static/media/spotify.35d4b869.png": "./static/media/spotify.35d4b869.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b9a2c23.js",
-    "static/js/2.c7e47623.chunk.js",
-    "static/css/main.5190a62c.chunk.css",
-    "static/js/main.0ba3cac5.chunk.js"
+    "static/js/runtime-main.01709685.js",
+    "static/js/2.95adeece.chunk.js",
+    "static/css/main.7c8dd23c.chunk.css",
+    "static/js/main.826c32d2.chunk.js"
   ]
 }
