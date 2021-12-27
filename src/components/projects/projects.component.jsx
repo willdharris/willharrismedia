@@ -11,7 +11,7 @@ const Projects = () => {
       title: ["TV Programming Guide"],
       subtitle: "HTML, CSS, Vanilla JS, REST API",
       description:
-        "A custom app to view the programming schedules of Discovery networks all in one place. Built for media ops team to eliminate the need to search 16 different websites each day, saving hours of labor per year.",
+        "An app to view the programming schedules of Discovery networks all in one place. Built for ops team to eliminate the need to search 16 different websites each day, saving hours of labor per year.",
       repo: "https://github.com/willdharris/discovery",
       demo: "https://discoveryepg.netlify.app/",
       img: epg,
@@ -27,15 +27,15 @@ const Projects = () => {
       img: lookup,
       id: 2,
     },
-    {
-      title: ["Spotify Clone"],
-      subtitle: "React, OAuth, RestAPI",
-      description: "spotify clone full stack project",
-      repo: "https://github.com/willdharris",
-      demo: "https://www.spotify.com/us/",
-      img: spotify,
-      id: 3,
-    },
+    // {
+    //   title: ["Spotify Clone"],
+    //   subtitle: "React, OAuth, RestAPI",
+    //   description: "spotify clone full stack project",
+    //   repo: "https://github.com/willdharris",
+    //   demo: "https://www.spotify.com/us/",
+    //   img: spotify,
+    //   id: 3,
+    // },
   ];
   return (
     <Row xs={1} md={1} lg={2} className="g-4 justify-content-center">
