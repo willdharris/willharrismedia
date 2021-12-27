@@ -10,4 +10,4 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/138dac09-8e21-4a07-8bba-82d7d076e347/deploy-status)](https://app.netlify.com/sites/willharrismedia/deploys)</p>
 
-![demo](https://user-images.githubusercontent.com/66787651/147493872-d808b428-6bad-4800-86b2-08f1a1329ae0.png)
+![demo](https://user-images.githubusercontent.com/66787651/147506632-799a78a0-3f1d-4ee9-a8df-ac5a6b51248c.png)
