@@ -9,9 +9,11 @@ function Home() {
     "Dot Connector",
     "Design Thinker",
     "Detail Stickler",
+    "Pro Troubleshooter",
     "Experience Builder",
     "Logic Designer",
     "Cloud Navigator",
+    "User Advocate",
     "Problem Solver",
   ];
   const numDescriptions = descriptions.length;
@@ -42,7 +44,7 @@ function Home() {
               </div>
               <div className="sub-heading">
                 <span>Frontend Developer</span> <span>and</span>{" "}
-                <br class="mobile-line-break"></br>
+                <br className="mobile-line-break"></br>
                 <span className="curly">{"{"}</span>
                 <span className="description">{description}</span>
                 <span className="curly">{"}"}</span>.

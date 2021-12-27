@@ -2,7 +2,6 @@ import React from "react";
 import Toolbox from "../toolbox/toolbox.component";
 import Certifications from "../certifications/certifications.component";
 import "./skills.styles.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container } from "react-bootstrap";
 
 const Skills = () => (

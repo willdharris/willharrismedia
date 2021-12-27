@@ -1,5 +1,9 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faTerminal, faHome } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTerminal,
+  faHome,
+  faExternalLinkAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
@@ -29,5 +33,6 @@ library.add(
   faAws,
   faTerminal,
   faSketch,
-  faHome
+  faHome,
+  faExternalLinkAlt
 );

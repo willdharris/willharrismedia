@@ -14,7 +14,15 @@ function Footer() {
           <Row>
             <Col>
               <div className="footer-left">
-                <div>© Will Harris {year}.</div>
+                <div className="footer-creds">
+                  <a
+                    href="https://github.com/willdharris/willharrismedia"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Designed & Built by Will Harris {year}.
+                  </a>
+                </div>
               </div>
             </Col>
             <Col>
@@ -23,10 +31,15 @@ function Footer() {
                   <a
                     href="https://www.linkedin.com/in/willdharris/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={["fab", "linkedin"]} />
                   </a>
-                  <a href="https://github.com/willdharris" target="_blank">
+                  <a
+                    href="https://github.com/willdharris"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <FontAwesomeIcon icon={["fab", "github"]} />
                   </a>
                 </div>

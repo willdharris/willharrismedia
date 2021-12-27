@@ -100,10 +100,15 @@ const About = () => (
               <a
                 href="https://www.linkedin.com/in/willdharris/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={["fab", "linkedin"]} />
               </a>
-              <a href="https://github.com/willdharris" target="_blank">
+              <a
+                href="https://github.com/willdharris"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </div>

@@ -1,4 +1,4 @@
-import { React, useRef, useState } from "react";
+import { React, useState } from "react";
 import emailjs from "emailjs-com";
 import { useFormik } from "formik";
 import { Col, Row, Form, Button, Spinner } from "react-bootstrap";
@@ -121,6 +121,7 @@ const CustomForm = () => {
               <a
                 href="https://www.linkedin.com/in/willdharris/"
                 target="_blank"
+                rel="noreferrer"
               >
                 LinkedIn
               </a>

@@ -19,6 +19,7 @@ const Contact = () => (
               className="hyper"
               href="https://www.linkedin.com/in/willdharris/"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn
             </a>{" "}
