@@ -15,7 +15,7 @@
 }
 
 .greeting {
-  font-size: 2em;
+  font-size: 3em;
 }
 .big-heading {
   font-family: "Bebas Neue", cursive;
@@ -129,13 +129,12 @@
     font-size: 80%;
   }
   .big-heading {
-    margin-top: 30px;
-    line-height: 0.8em;
+    margin-top: 20px;
+    line-height: 0.9em;
   }
   .sub-heading {
     font-size: 2.5em;
     margin-top: 20px;
-    // display: block;
   }
 }
 
@@ -145,12 +144,12 @@
     font-size: 70%;
   }
   .big-heading {
-    margin-top: 30px;
-    line-height: 0.8em;
+    // margin-top: 30px;
+    line-height: 0.9em;
   }
   .sub-heading {
     font-size: 2.5em;
-    margin-top: 20px;
+    // margin-top: 20px;
     display: block;
   }
 }

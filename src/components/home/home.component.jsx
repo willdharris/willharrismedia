@@ -40,14 +40,14 @@ function Home() {
             <div>
               <div className="greeting ">Hi, my name is</div>
               <div className="big-heading" id="name">
-                <span>Will Harris.</span>
+                <span>Will Harris</span>
               </div>
               <div className="sub-heading">
                 <span>Frontend Developer</span> <span>and</span>{" "}
                 <br className="mobile-line-break"></br>
                 <span className="curly">{"{"}</span>
                 <span className="description">{description}</span>
-                <span className="curly">{"}"}</span>.
+                <span className="curly">{"}"}</span>
               </div>
               <nav
                 className="side-nav"
