@@ -1,7 +1,7 @@
 import { React } from "react";
 import "./projects.styles.scss";
 import { Col, Row, Card } from "react-bootstrap";
-import spotify from "../../assets/spotify.png";
+// import spotify from "../../assets/spotify.png";
 import epg from "../../assets/epg.png";
 import lookup from "../../assets/lookup.png";
 
