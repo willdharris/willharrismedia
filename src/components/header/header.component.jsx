@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Container, Navbar, Offcanvas, Nav, Row, Col } from "react-bootstrap";
+import { Container, Navbar, Nav, Row, Col } from "react-bootstrap";
 import Hamburger from "hamburger-react";
 import "./header.styles.scss";
 
