@@ -1,8 +1,11 @@
-import React from "react";
-import { Container, Navbar, Nav, Row, Col } from "react-bootstrap";
+import { React, useState } from "react";
+import { Container, Navbar, Offcanvas, Nav, Row, Col } from "react-bootstrap";
+import Hamburger from "hamburger-react";
 import "./header.styles.scss";
 
 function Header() {
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <header className="header">
       <Container>
@@ -14,9 +17,13 @@ function Header() {
                 <span className="description">wh</span>
                 <span className="curly">{"}"}</span>
               </Navbar.Brand>
-              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Toggle aria-controls="responsive-navbar-nav">
+                {" "}
+                <Hamburger toggled={isOpen} toggle={setOpen} />
+              </Navbar.Toggle>
+
               <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="ms-auto">
+                <Nav className="ms-auto" onClick={() => setOpen(false)}>
                   <Nav.Link href="#about">
                     <div className="nav-section">
                       <span className="nav-num">01.</span> <span>About</span>

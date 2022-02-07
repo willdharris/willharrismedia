@@ -6,13 +6,13 @@ import "./home.styles.scss";
 
 function Home() {
   const descriptions = [
-    "Dot Connector",
     "Design Thinker",
     "Detail Stickler",
     "Pro Troubleshooter",
-    "Experience Builder",
+    "Experience Creator",
     "Logic Designer",
     "Cloud Navigator",
+    "Dot Connector",
     "User Advocate",
     "Problem Solver",
   ];

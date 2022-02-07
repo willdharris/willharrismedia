@@ -1,7 +1,7 @@
 import { React } from "react";
 import "./projects.styles.scss";
 import { Col, Row, Card } from "react-bootstrap";
-// import spotify from "../../assets/spotify.png";
+import spotify from "../../assets/spotify.png";
 import epg from "../../assets/epg.png";
 import lookup from "../../assets/lookup.png";
 
@@ -27,15 +27,17 @@ const Projects = () => {
       img: lookup,
       id: 2,
     },
-    // {
-    //   title: ["Spotify Clone"],
-    //   subtitle: "React, OAuth, RestAPI",
-    //   description: "spotify clone full stack project",
-    //   repo: "https://github.com/willdharris",
-    //   demo: "https://www.spotify.com/us/",
-    //   img: spotify,
-    //   id: 3,
-    // },
+    {
+      title: ["Spotify Profile App"],
+      subtitle:
+        "Node.js, Express, OAuth, Spotify API, React, Styled Components",
+      description:
+        "A full stack web app to visualize personalized Spotify data.",
+      repo: "https://github.com/willdharris/spotify-app",
+      demo: "http://whm-spotify.herokuapp.com/",
+      img: spotify,
+      id: 3,
+    },
   ];
   return (
     <Row xs={1} md={1} lg={2} className="g-4 justify-content-center">

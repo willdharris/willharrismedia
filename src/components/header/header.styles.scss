@@ -8,7 +8,8 @@ header {
   width: 100%;
 }
 
-.navbar {
+.navbar,
+.offcanvas {
   padding: 30px 0;
   background-color: $charcoal1op;
 }
@@ -39,4 +40,16 @@ header {
 
 .nav-section {
   @include hyperlink;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border: none;
+  color: $gray2;
+  box-shadow: none;
+}
+
+.navbar-dark .navbar-toggler {
+  color: $gray2;
 }
