@@ -54,7 +54,7 @@ const CustomForm = () => {
       <Row className="g-2">
         <Col md>
           <Form.Group className="mb-3" controlId="formBasicName">
-            <Form.Label>Name</Form.Label>
+            <Form.Label>NAME</Form.Label>
             <Form.Control
               type="text"
               name="user_name"
@@ -69,7 +69,7 @@ const CustomForm = () => {
         </Col>
         <Col md>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Email Address</Form.Label>
+            <Form.Label>EMAIL ADDRESS</Form.Label>
             <Form.Control
               type="email"
               name="user_email"
@@ -87,7 +87,7 @@ const CustomForm = () => {
         </Col>
       </Row>
       <Form.Group className="mb-3" controlId="floatingTextarea">
-        <Form.Label>Your Message</Form.Label>
+        <Form.Label>YOUR MESSAGE</Form.Label>
         <Form.Control
           as="textarea"
           name="message"
