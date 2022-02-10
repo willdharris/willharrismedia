@@ -17,6 +17,7 @@ import {
   faBootstrap,
   faAws,
   faSketch,
+  faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
@@ -33,6 +34,7 @@ library.add(
   faAws,
   faTerminal,
   faSketch,
+  faNodeJs,
   faHome,
   faExternalLinkAlt
 );

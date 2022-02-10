@@ -49,12 +49,24 @@ const Projects = () => {
               <Card.Subtitle className="mb-2 ">
                 {project.subtitle}
               </Card.Subtitle>
-              <Card.Img variant="top" src={project.img} />
+              <a href={project.demo} target="_blank" rel="noreferrer">
+                <Card.Img variant="top" src={project.img} />
+              </a>
               <Card.Text>{project.description}</Card.Text>
-              <a href={project.repo} target="_blank" rel="noreferrer">
+              <a
+                href={project.repo}
+                target="_blank"
+                rel="noreferrer"
+                className="text-link"
+              >
                 Repo
               </a>{" "}
-              <a href={project.demo} target="_blank" rel="noreferrer">
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noreferrer"
+                className="text-link"
+              >
                 Demo
               </a>
             </Card.Body>

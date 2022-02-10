@@ -18,6 +18,7 @@ const Toolbox = () => {
     { title: ["fab", "github"], subtitle: "GitHub", id: 10 },
     { title: ["fab", "aws"], subtitle: "AWS", id: 11 },
     { title: ["fab", "sketch"], subtitle: "Sketch", id: 12 },
+    { title: ["fab", "node-js"], subtitle: "Node JS", id: 13 },
   ];
   return (
     <Row xs={2} md={3} lg={5} className="g-4 justify-content-center">
