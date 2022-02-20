@@ -2,12 +2,13 @@
 
 .home {
   height: 100vh;
+  // position: relative;
 }
 
 .home-landing {
   display: flex;
   align-items: center;
-  height: 70%;
+  height: 100%;
 }
 .home-body {
   text-align: left;
