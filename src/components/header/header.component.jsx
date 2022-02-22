@@ -1,13 +1,5 @@
 import { React, useState } from "react";
-import {
-  Container,
-  Navbar,
-  Nav,
-  Row,
-  Col,
-  Offcanvas,
-  NavDropdown,
-} from "react-bootstrap";
+import { Container, Navbar, Nav, Row, Col } from "react-bootstrap";
 import Hamburger from "hamburger-react";
 import "./header.styles.scss";
 
@@ -19,7 +11,13 @@ function Header() {
       <Container>
         <Row>
           <Col>
-            <Navbar collapseOnSelect expand="lg" bg="none" variant="dark">
+            <Navbar
+              collapseOnSelect
+              expand="lg"
+              bg="none"
+              variant="dark"
+              className={`${isOpen ? "open" : ""}`}
+            >
               <Navbar.Brand href="#home">
                 <span className="curly">{"{"}</span>
                 <span className="description">wh</span>
