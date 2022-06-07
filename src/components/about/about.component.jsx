@@ -26,10 +26,7 @@ const About = () => (
                   ultimately improve the human experience.{" "}
                 </li>
                 <li>
-                  In my current job, I support cloud applications at IBM and
-                  build custom apps to improve business operations. I'm at home
-                  with HTML, CSS, JavaScript, and React. I love learning and I'm
-                  always studying up on new technologies.{" "}
+                  I currently work as a Video Solutions Engineer at a leading global media company, supporting product teams and engineers in building premium streaming video applications.{" "}
                 </li>
                 <li>
                   Offline, I'm helping my wife raise our three little humans.

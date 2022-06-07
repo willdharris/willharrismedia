@@ -1,33 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.7c8dd23c.chunk.css",
-    "main.js": "./static/js/main.826c32d2.chunk.js",
-    "main.js.map": "./static/js/main.826c32d2.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.01709685.js",
-    "runtime-main.js.map": "./static/js/runtime-main.01709685.js.map",
-    "static/js/2.95adeece.chunk.js": "./static/js/2.95adeece.chunk.js",
-    "static/js/2.95adeece.chunk.js.map": "./static/js/2.95adeece.chunk.js.map",
-    "static/js/3.f27d40cd.chunk.js": "./static/js/3.f27d40cd.chunk.js",
-    "static/js/3.f27d40cd.chunk.js.map": "./static/js/3.f27d40cd.chunk.js.map",
+    "main.css": "./static/css/main.608fb86a.css",
+    "main.js": "./static/js/main.4371ff96.js",
+    "static/js/787.4e65f8ad.chunk.js": "./static/js/787.4e65f8ad.chunk.js",
+    "static/media/epg.png": "./static/media/epg.b3f2c3422c1a771fc58b.png",
+    "static/media/spotify.png": "./static/media/spotify.d18a48b7d7e0af06e8c6.png",
+    "static/media/data-science.png": "./static/media/data-science.95784179308836dc7ac4.png",
+    "static/media/lookup.png": "./static/media/lookup.de252ac77c502c5fd6d0.png",
+    "static/media/ibm-react.png": "./static/media/ibm-react.1fc17849517502aa9ee7.png",
+    "static/media/people.png": "./static/media/people.e17d1d61c765c0bfd164.png",
+    "static/media/ai.png": "./static/media/ai.021107370570cf37ebb1.png",
+    "static/media/agile.png": "./static/media/agile.c554d52928963a73f004.png",
+    "static/media/design-thinking.png": "./static/media/design-thinking.09b7070e4184d03d127a.png",
+    "static/media/aws.png": "./static/media/aws.b4733b9ac2a5d8f98297.png",
+    "static/media/profilepicsquare-300x300.jpeg": "./static/media/profilepicsquare-300x300.d9bc0ac3d1d0de718014.jpeg",
     "index.html": "./index.html",
-    "static/css/main.7c8dd23c.chunk.css.map": "./static/css/main.7c8dd23c.chunk.css.map",
-    "static/js/2.95adeece.chunk.js.LICENSE.txt": "./static/js/2.95adeece.chunk.js.LICENSE.txt",
-    "static/media/agile.c554d529.png": "./static/media/agile.c554d529.png",
-    "static/media/ai.02110737.png": "./static/media/ai.02110737.png",
-    "static/media/aws.b4733b9a.png": "./static/media/aws.b4733b9a.png",
-    "static/media/data-science.95784179.png": "./static/media/data-science.95784179.png",
-    "static/media/design-thinking.09b7070e.png": "./static/media/design-thinking.09b7070e.png",
-    "static/media/epg.b3f2c342.png": "./static/media/epg.b3f2c342.png",
-    "static/media/ibm-react.1fc17849.png": "./static/media/ibm-react.1fc17849.png",
-    "static/media/lookup.de252ac7.png": "./static/media/lookup.de252ac7.png",
-    "static/media/people.e17d1d61.png": "./static/media/people.e17d1d61.png",
-    "static/media/profilepicsquare-300x300.d9bc0ac3.jpeg": "./static/media/profilepicsquare-300x300.d9bc0ac3.jpeg",
-    "static/media/spotify.35d4b869.png": "./static/media/spotify.35d4b869.png"
+    "main.608fb86a.css.map": "./static/css/main.608fb86a.css.map",
+    "main.4371ff96.js.map": "./static/js/main.4371ff96.js.map",
+    "787.4e65f8ad.chunk.js.map": "./static/js/787.4e65f8ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.01709685.js",
-    "static/js/2.95adeece.chunk.js",
-    "static/css/main.7c8dd23c.chunk.css",
-    "static/js/main.826c32d2.chunk.js"
+    "static/css/main.608fb86a.css",
+    "static/js/main.4371ff96.js"
   ]
 }
